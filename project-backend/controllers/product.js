@@ -68,10 +68,10 @@ exports.getProduct = (req, res) => {
 
 //middleware for faster photo rendering in background
 exports.photoLoadInBackground = (req, res, next) => {
-  if (req.photo.data) {
-    res.set("Content-Type", req.product.photo.data);
+  if (req.product.photo.data) {
+    res.set("Content-Type", req.product.photo.contentType);
+    return res.send(req.product.photo.data);
   }
-
   next();
 };
 

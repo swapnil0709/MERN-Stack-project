@@ -1,4 +1,4 @@
-# MERN-Stack-project
+# MERN-Stack-Ecommerce Website
 
 ![alt text](https://github.com/swapnil0709/MERN-Stack-project/blob/master/Homepage.png)
 
